@@ -1,1 +1,1 @@
-confirm("SAYTINGIZGA KIRASIZMI")
+confirm("TEACHER WELCOME")
