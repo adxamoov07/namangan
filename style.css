@@ -1,0 +1,475 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+    background-color: #9999992e;
+
+}
+
+header i {
+    font-size: 30px;
+    color: #444;
+}
+
+header i:hover {
+    font-size: 30px;
+    color: #151414;
+    background-color: rgba(30, 143, 255, 0.405);
+}
+
+.header2 {
+    width: 100vw;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16%;
+}
+
+.header2 h1 {
+    font-size: 35px;
+    color: #55555589;
+}
+
+.header2 i {
+    font-size: 30px;
+
+}
+
+.header2 i:hover {
+    font-size: 30px;
+    color: red;
+    box-shadow: 0 0 20px pink;
+
+}
+
+.banner {
+    width: 100vw;
+    height: 85vh;
+    background-color: rgba(172, 116, 221, 0.084);
+    display: flex;
+}
+
+.banner_item {
+    width: 50%;
+    height: 100%;
+    background-color: dodgerblue;
+    background-image: url(./img/img2.jpg);
+    background-size: 100% 105%;
+
+}
+
+.banner_item1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+    gap: 30px;
+}
+
+.banner_item1 h1 {
+    font-size: 70px;
+    font-weight: normal;
+}
+
+.banner_item1 div p {
+    line-height: 1.7;
+    font-size: 19px;
+    color: #777;
+}
+
+.banner_item1 p {
+    font-size: 19px;
+    color: #777;
+}
+
+.banner_item1 button {
+    padding: 20px 60px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(254, 136, 53);
+    border: none;
+    border-radius: 10px;
+}
+
+.banner_item1 button:hover {
+    color: white;
+    background-color: rgb(6, 6, 67);
+    box-shadow: 0 0 20px dodgerblue;
+
+}
+
+.banner1 {
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.banner1 h1 {
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.banner2 {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner2_box2 {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner2_item {
+    width: 50%;
+    height: 100%;
+}
+
+.banner2_item1 {
+    width: 50%;
+    height: 100%;
+}
+
+.banner2_child {
+    width: 100%;
+    height: 33.3%;
+    display: flex;
+}
+
+.banner2_child_item {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner2_child_item_1 {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(225, 121, 47);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner2_child_item_1 i {
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+
+.banner2_child_item1 {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1.6;
+    font-weight: normal;
+}
+
+.banner2_child_item1 p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+.banner2_child_item1 h2 {
+    font-size: 27px;
+    font-weight: normal;
+}
+
+.banner3 {
+    width: 100vw;
+    height: 250px;
+    background-color: rgba(255, 106, 0, 0.892);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.banner3 h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: normal;
+}
+
+.banner3 p {
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+}
+
+.banner4 {
+    width: 100vw;
+    height: 165vh;
+    background-color: rgba(255, 106, 0, 0.892);
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+}
+
+.banner4_box {
+    width: 85%;
+    height: 100%;
+    background-color: rgba(255, 106, 0, 0.892);
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+
+}
+
+.banner4_item {
+    width: 300px;
+    border-radius: 5px;
+    height: 400px;
+    background-color: #1e2336;
+    overflow: hidden;
+}
+
+.banner4_item img {
+    width: 300px;
+    height: 250px;
+}
+
+.banner4_child {
+    width: 300px;
+    height: 150px;
+    background-color: #1e2336;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    color: white;
+}
+
+.banner4_item:hover .banner4_child {
+    padding-bottom: 20px;
+    transition: .5s;
+}
+
+
+.banner4_child p {
+    font-size: 22px;
+}
+
+.banner5 {
+    width: 100vw;
+    height: 150px;
+    background-color: rgba(255, 106, 0, 0.892);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.banner6 {
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner6 h1 {
+    font-size: 4.5rem;
+    font-weight: normal;
+}
+
+.banner7 {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+
+.banner7_item {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.banner7_box {
+    margin-top: 100px;
+    margin-left: 200px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner7_item a {
+    padding: 30px 40px;
+    text-decoration: none;
+    color: orange;
+    font-weight: 800;
+
+}
+
+.banner7_item a:hover {
+    background-color: #99999989;
+
+}
+
+.banner7_item a i {
+    margin-left: 150px;
+    color: pink;
+    font-size: 30px;
+}
+
+.banner7_item1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.banner7_item1 img {
+    width: 500px;
+    height: 250px;
+}
+
+.banner7_item1 p {
+    line-height: 1.7;
+    font-size: 20px;
+    color: #666;
+}
+
+.banner7_item1 button {
+    padding: 20px 60px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(254, 136, 53);
+    border: none;
+    border-radius: 10px;
+}
+
+.banner7_item1 h2 {
+    font-weight: normal;
+    color: #666;
+    font-size: 20px;
+}
+
+.banner7_item1 button:hover {
+    color: white;
+    background-color: rgb(6, 6, 67);
+    box-shadow: 0 0 20px dodgerblue;
+
+}
+
+.banner8 {
+    width: 100vw;
+    height: 150vh;
+    background-image: url(./img/img21.jpg);
+    background-repeat: no-repeat;
+    background-color: rgb(54, 54, 59);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner8_box {
+    width: 600px;
+    height: 700px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 400px;
+    margin-top: 100px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 50px;
+}
+.banner8_box h1{
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+.banner8_box input{
+    padding: 15px 300px 15px 10px;
+    border-radius: 10px;
+    background-color: #9999994e;
+    border: 1px solid #999;
+}
+.banner8_box button{
+    padding: 20px 200px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(254, 136, 53);
+    font-size: 20px;
+    font-weight: 700;
+}
+.banner8_box button:hover{
+    padding: 20px 200px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(10, 10, 91);
+    box-shadow: 0 0 20px dodgerblue;
+    font-size: 20px;
+    font-weight: 700;
+}
+.banner8_box h2{
+    font-size: 22px;
+    margin-top: 20px;
+    color: #888;
+}
+.banner9{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(54, 54, 59);
+}
+.banner10{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #666;
+    color: #fff;
+    font-weight: normal;
+
+}
