@@ -12,7 +12,10 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 2%;
-    background-color: #9999992e;
+    background-color: #f8f1f1;
+    position: sticky;
+    top: 0;
+    left: 0;
 
 }
 
@@ -54,6 +57,17 @@ header i:hover {
 
 }
 
+@media screen and (max-width:600px) {
+    .header_img {
+        width: 100px;
+        height: 30px;
+    }
+
+    header>i {
+        font-size: 25px;
+    }
+}
+
 .banner {
     width: 100vw;
     height: 85vh;
@@ -64,7 +78,6 @@ header i:hover {
 .banner_item {
     width: 50%;
     height: 100%;
-    background-color: dodgerblue;
     background-image: url(./img/img2.jpg);
     background-size: 100% 105%;
 
@@ -78,6 +91,7 @@ header i:hover {
     justify-content: center;
     flex-direction: column;
     padding-left: 50px;
+    padding-right: 180px;
     gap: 30px;
 }
 
@@ -113,6 +127,59 @@ header i:hover {
 
 }
 
+@media screen and (max-width:1255px) {
+    .banner_item1 {
+        padding-right: 150px;
+    }
+}
+
+@media screen and (max-width:1191px) {
+    .banner_item1 {
+        padding-right: 50px;
+    }
+}
+
+
+@media screen and (max-width:1130px) {
+    .banner {
+        height: 160vh;
+        flex-direction: column;
+    }
+
+    .banner_item {
+        width: 100vw;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner_item1 {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .banner_item1 h1 {
+        font-size: 40px;
+    }
+
+    .banner_item1 p {
+        font-size: 17px;
+    }
+
+    .banner_item1 {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
 .banner1 {
     width: 100vw;
     height: 300px;
@@ -126,6 +193,22 @@ header i:hover {
 .banner1 h1 {
     font-size: 60px;
     font-weight: normal;
+}
+
+@media screen and (max-width:500px) {
+    .banner1 {
+        height: 200px;
+    }
+
+    .banner1 h1 {
+        font-size: 40px;
+        font-weight: normal;
+    }
+
+    .banner1 h3 {
+        font-size: 17px;
+        font-weight: normal;
+    }
 }
 
 .banner2 {
@@ -205,6 +288,88 @@ header i:hover {
     font-weight: normal;
 }
 
+@media screen and (max-width:1010px) {
+    .banner2 {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .banner2_box2 {
+        width: 100vw;
+        height: 120vh;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .banner2 {
+        margin-bottom: 200px;
+    }
+
+    .banner2_box2 {
+        width: 100vw;
+        height: 140vh;
+        flex-direction: column;
+    }
+
+    .banner2_child {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .banner2_child_item1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .banner2_child {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .banner2_child_item1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .banner2_child_item1 h2 {
+        font-size: 20px;
+    }
+
+    .banner2_child_item1 p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .banner2_child_item1 h2 {
+        font-size: 18px;
+    }
+
+    .banner2_child_item1 p {
+        font-size: 12px;
+    }
+
+    .banner2_child_item_1 {
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+    }
+}
+
+
+
+
 .banner3 {
     width: 100vw;
     height: 250px;
@@ -228,9 +393,42 @@ header i:hover {
     color: white;
 }
 
+@media screen and (max-width:705px) {
+    .banner3 h1 {
+        font-size: 40px;
+        color: white;
+        font-weight: normal;
+    }
+
+    .banner3 p {
+        font-size: 15px;
+        font-weight: normal;
+        color: white;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .banner3 {
+        width: 100vw;
+        height: 150px;
+    }
+
+    .banner3 h1 {
+        font-size: 30px;
+        color: white;
+        font-weight: normal;
+    }
+
+    .banner3 p {
+        font-size: 10px;
+        font-weight: normal;
+        color: white;
+    }
+}
+
 .banner4 {
     width: 100vw;
-    height: 165vh;
+    height: auto;
     background-color: rgba(255, 106, 0, 0.892);
     display: flex;
     align-self: center;
@@ -240,7 +438,7 @@ header i:hover {
 
 .banner4_box {
     width: 85%;
-    height: 100%;
+    height: auto;
     background-color: rgba(255, 106, 0, 0.892);
     flex-wrap: wrap;
     display: flex;
@@ -286,6 +484,12 @@ header i:hover {
     font-size: 22px;
 }
 
+@media screen and (max-width:1100px) {
+    .banner4_box {
+        width: 100vw;
+    }
+}
+
 .banner5 {
     width: 100vw;
     height: 150px;
@@ -294,6 +498,13 @@ header i:hover {
     align-items: center;
     justify-content: center;
     color: white;
+}
+
+@media screen and (max-width:700px) {
+    .banner5 {
+        width: 100vw;
+        height: 80px;
+    }
 }
 
 .banner6 {
@@ -308,6 +519,22 @@ header i:hover {
 .banner6 h1 {
     font-size: 4.5rem;
     font-weight: normal;
+}
+@media screen and (max-width:900px) {
+    .banner6 h1 {
+        font-size: 3rem;
+        font-weight: normal;
+    }
+}
+@media screen and (max-width:600px) {
+    .banner6 {
+        width: 100vw;
+        height: 150px;
+    }
+    .banner6 h1 {
+        font-size: 1.8rem;
+        font-weight: normal;
+    }
 }
 
 .banner7 {
@@ -345,9 +572,9 @@ header i:hover {
 }
 
 .banner7_item a i {
-    margin-left: 150px;
     color: pink;
     font-size: 30px;
+    margin-left: 80px;
 }
 
 .banner7_item1 {
@@ -392,6 +619,73 @@ header i:hover {
     box-shadow: 0 0 20px dodgerblue;
 
 }
+@media screen and (max-width:1420px) {
+    .banner7{
+        flex-direction: column;
+        height: auto;
+    }
+    .banner7_item{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+    .banner7_box{
+       margin: 0;
+    }
+    .banner7_item1{
+        width: 100vw;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:515px) {
+    .banner7_box a{
+        font-size: 15px;
+    }
+    .banner7_item1 img{
+        width: 400px;
+        height: 200px;
+    }
+    .banner7_item1 p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:500px) {
+    .banner7_box a{
+        font-size: 15px;
+    }
+    .banner7_box a i{
+        font-size: 25px;
+        margin-left: -40px;
+    }
+}
+@media screen and (max-width:463px) {
+    .banner7_box a{
+        font-size: 9px;
+    }
+    .banner7_box a i{
+        font-size: 25px;
+        margin-left: -40px;
+    }
+}
+
+
+@media screen and (max-width:405px) {
+    .banner7_item1 img{
+        width: 300px;
+        height: 150px;
+    }
+    .banner7_item1 p{
+        font-size: 12px;
+    }
+
+}
 
 .banner8 {
     width: 100vw;
@@ -418,18 +712,21 @@ header i:hover {
     gap: 15px;
     padding-left: 50px;
 }
-.banner8_box h1{
+
+.banner8_box h1 {
     font-size: 50px;
     font-weight: normal;
     margin-bottom: 40px;
 }
-.banner8_box input{
+
+.banner8_box input {
     padding: 15px 300px 15px 10px;
     border-radius: 10px;
     background-color: #9999994e;
     border: 1px solid #999;
 }
-.banner8_box button{
+
+.banner8_box button {
     padding: 20px 200px;
     border: none;
     border-radius: 10px;
@@ -438,7 +735,8 @@ header i:hover {
     font-size: 20px;
     font-weight: 700;
 }
-.banner8_box button:hover{
+
+.banner8_box button:hover {
     padding: 20px 200px;
     border: none;
     border-radius: 10px;
@@ -448,12 +746,14 @@ header i:hover {
     font-size: 20px;
     font-weight: 700;
 }
-.banner8_box h2{
+
+.banner8_box h2 {
     font-size: 22px;
     margin-top: 20px;
     color: #888;
 }
-.banner9{
+
+.banner9 {
     width: 100vw;
     height: 100px;
     display: flex;
@@ -462,7 +762,8 @@ header i:hover {
     color: white;
     background-color: rgb(54, 54, 59);
 }
-.banner10{
+
+.banner10 {
     width: 100vw;
     height: 100px;
     display: flex;
