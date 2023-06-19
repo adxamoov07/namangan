@@ -148,7 +148,7 @@ header i:hover {
 
     .banner_item {
         width: 100vw;
-
+        height: 50vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -156,6 +156,7 @@ header i:hover {
 
     .banner_item1 {
         width: 100vw;
+        height: 80vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -783,7 +784,7 @@ header i:hover {
 }
 
 @media screen and (max-width:405px) {
-    .banner9 h3{
+    .banner9 h3 {
         font-size: 15px;
     }
 }
